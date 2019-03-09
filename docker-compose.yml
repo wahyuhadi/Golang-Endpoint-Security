@@ -1,0 +1,7 @@
+db:
+    image: postgres
+    ports:
+    - "5432:5432"
+    environment:
+      POSTGRES_USER: "gits"
+      POSTGRES_PASSWORD: "hunter2"
